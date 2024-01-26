@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatchan Muhammad Hakim</title>
+ 
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"> 
+ 
+</head>
+<body>
+    <div>
+        <input type="text" id="name" name="name" placeholder="Masukkan nama negara">
+        <button type="button">Cek Statistik</button>
+ 
+        <div class="card-statistik">
+            <h4 class="font-bold statistik-title">Statistik Covid</h4>
+            <h6 class="font-medium statistik-subtitle">
+                Negara :
+                <span class="nama-negara">Indonesia</span>
+            </h6>
+ 
+            <div class="flex-container">
+                <div class="mb-3">
+                    <p class="data-title">Kasus Aktif</p>
+                    <p class="data-value active-case"></p>
+                </div>
+ 
+                <div class="mb-3">
+                    <p class="data-title">Kasus Kritis</p>
+                    <p class="data-value critical-case"></p>
+                </div>
+ 
+                <div>
+                    <p class="data-title">Kasus Baru</p>
+                    <p class="data-value new-case"></p>
+                </div>
+ 
+                <div>
+                    <p class="data-title">Sembuh</p>
+                    <p class="data-value recovered"></p>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+ 
+    <script src="jQuery.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
